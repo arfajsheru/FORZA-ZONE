@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+CU:wght@100..400&family=Prata&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+
+
+
+a.active hr{
+    display: block;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.linear-color {
+    animation: backwards 2s infinite alternate;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+@keyframes backwards {
+    0% {
+        background: linear-gradient(0deg, #86a8e7, #5ffbf1);
+    }
+    25% {
+        background: linear-gradient(0deg, #fdfcfb, #e2d1c3);
+    }
+    50% {
+        background: linear-gradient(0deg, #f1a7f1, #fad0c4);
+    }
+    75% {
+        background: linear-gradient(0deg, #faeed9, #f2e4d8);
+    }
+    100% {
+        background: linear-gradient(0deg, #d387ab, #e899dc);
+    }
+}
+
+
+
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width:640px) {
+    a.active{
+        background-color: black;
+        color: white;
+    }
+}
+  
+
+
+.font{
+    background: -webkit-linear-gradient(60deg, #190154, #c51cac ,#4a1ac4,#c51cac );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+

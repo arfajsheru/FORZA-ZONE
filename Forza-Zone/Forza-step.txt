@@ -1,0 +1,8 @@
+start
+1) crate project 
+2) remove the default code 
+3) Install react router , react icon , tailwind Css
+4) I created 2 files in SRC 1st is pages and 2nd is components
+5) I setup react router DOM in App.jsx
+6) first component create Navbar and import the app.jsx
+7) Add 4 Navigation Home,Collection,About,contact

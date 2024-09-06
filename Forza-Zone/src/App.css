@@ -1,0 +1,33 @@
+/* App.css */
+@keyframes gradientBackground {
+  0% {
+    background: linear-gradient(
+      45deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet
+    );
+  }
+  100% {
+    background: linear-gradient(
+      45deg,
+      violet,
+      indigo,
+      blue,
+      green,
+      yellow,
+      orange,
+      red
+    );
+  }
+}
+
+.animated-background {
+  animation: gradientBackground 10s ease infinite;
+  background-size: 400% 400%;
+  height: 100vh; /* Ensure full height */
+}
